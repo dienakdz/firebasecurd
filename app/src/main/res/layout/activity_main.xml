@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:background="@android:drawable/sym_def_app_icon"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="REGISTRATION"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:hint="First Name"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:hint="Last Name"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:hint="Age"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:hint="Username"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@color/purple_700"
+        android:text="Register" />
+
+</LinearLayout>
